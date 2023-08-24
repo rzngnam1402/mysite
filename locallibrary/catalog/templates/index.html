@@ -17,4 +17,6 @@
   </li>
   <li><strong>{%translate "Authors:"%}</strong> {{ num_authors }}</li>
 </ul>
+
+<p>{%translate "You have visited this page "%} {{ num_visits }} {%translate "time"%}{% if num_visits > 1 %}s{%endif%}.</p>
 {% endblock %}

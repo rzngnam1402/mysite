@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-24 15:59+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: catalog/models.py:11
+msgid "Enter a book genre (e.g.Science Fiction)"
+msgstr "Nhập thể loại của sách (ví dụ: Khoa học giả tưởng)"
+
+#: catalog/models.py:23
+msgid "Enter a brief description of the book"
+msgstr "Nhập mô tả ngắn gọn của quyển sách"
+
+#: catalog/models.py:25
+msgid ""
+"13 Character <ahref=\"https://www.isbn-international.org/content/what-"
+"isbn\">ISBN number</a>"
+msgstr ""
+
+#: catalog/models.py:28
+msgid "Select a genre for this book"
+msgstr "Nhập thể loại cho cuốn sách này"
+
+#: catalog/models.py:47
+msgid "Unique ID for this particular bookacross whole library"
+msgstr "Định danh duy nhất cho cuốn sách này trong toàn bộ thư viện"
+
+#: catalog/models.py:63
+msgid "Book availability"
+msgstr "Tình trạng sách"
+
+#: catalog/templates/base_generic.html:26
+msgid "Home"
+msgstr "Trang chủ"
+
+#: catalog/templates/base_generic.html:27
+msgid "All books"
+msgstr "Toàn bộ sách"
+
+#: catalog/templates/base_generic.html:28
+msgid "All Authors"
+msgstr "Toàn bộ tác giả"
+
+#: catalog/templates/catalog/author_detail.html:5
+msgid "Author"
+msgstr "Tác giả"
+
+#: catalog/templates/catalog/author_detail.html:7
+msgid "Date of Birth"
+msgstr "Ngày sinh"
+
+#: catalog/templates/catalog/author_detail.html:9
+msgid "Date of Death"
+msgstr "Ngày mất"
+
+#: catalog/templates/catalog/author_detail.html:12
+msgid "Books list:"
+msgstr "Danh sách các cuốn sách:"
+
+#: catalog/templates/catalog/author_list.html:5
+msgid "Author List"
+msgstr "Danh sách tác giả"
+
+#: catalog/templates/catalog/author_list.html:13
+msgid "There are no authors in the library."
+msgstr "Không có tác giả nào trong thư viện"
+
+#: catalog/templates/catalog/book_detail.html:5
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: catalog/templates/catalog/book_detail.html:7
+msgid "Author:"
+msgstr "Tác giả:"
+
+#: catalog/templates/catalog/book_detail.html:8
+msgid "Summary:"
+msgstr "Tóm tắt:"
+
+#: catalog/templates/catalog/book_detail.html:10
+msgid "Language:"
+msgstr "Ngôn ngữ"
+
+#: catalog/templates/catalog/book_detail.html:11
+msgid "Genre:"
+msgstr "Thể loại"
+
+#: catalog/templates/catalog/book_detail.html:13
+msgid "Copies"
+msgstr "Số lượng bản"
+
+#: catalog/templates/catalog/book_detail.html:20
+msgid "Due to be returned:"
+msgstr "Ngày cần trả"
+
+#: catalog/templates/catalog/book_detail.html:22
+msgid "Imprint:"
+msgstr "Ấn hiệu"
+
+#: catalog/templates/index.html:5
+msgid "Local Library Home"
+msgstr "Trang chủ thư viện"
+
+#: catalog/templates/index.html:7
+msgid "Welcome to LocalLibrary, a website developed by"
+msgstr "Chào mừng đến với LocalLibrary, một trang web được phát triển bởi"
+
+#: catalog/templates/index.html:8
+msgid "Mozilla Developer Network"
+msgstr "Mozilla Developer Network"
+
+#: catalog/templates/index.html:10
+msgid "Dynamic Content"
+msgstr "Dynamic Content"
+
+#: catalog/templates/index.html:11
+msgid "The library has the following record counts:"
+msgstr "Thư viện này có số lượng bản ghi sau đây:"
+
+#: catalog/templates/index.html:13
+msgid "Books:"
+msgstr "Sách:"
+
+#: catalog/templates/index.html:14
+msgid "Copies:"
+msgstr "Số sách:"
+
+#: catalog/templates/index.html:16
+msgid "Copies Available:"
+msgstr "Số lượng sách khả dụng"
+
+#: catalog/templates/index.html:18
+msgid "Authors:"
+msgstr "Tác giả:"
+
+#: catalog/templates/index.html:21
+msgid "You have visited this page "
+msgstr "Bạn đã thăm trang này"
+
+#: catalog/templates/index.html:21
+msgid "time"
+msgstr "lần"
