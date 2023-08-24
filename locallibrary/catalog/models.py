@@ -88,3 +88,7 @@ class Author(models.Model):
     def __str__(self):
         """String for representing the Model object."""
         return f'{self.last_name}, {self.first_name}'
+
+    def get_books_list(self):
+        """Returns the list of books by this author."""
+        return Book.objects.filter(author=self)
