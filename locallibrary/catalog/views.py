@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views import generic
 from django.shortcuts import get_object_or_404
+from django.contrib.auth.mixins import LoginRequiredMixin
 from catalog.models import Book, Author, BookInstance
 
 
@@ -51,3 +52,12 @@ class AuthorListView(generic.ListView):
 def author_detail_view(request, primary_key):
     author = get_object_or_404(Author, pk=primary_key)
     return render(request, 'catalog/author_detail.html', context={'author': author})
+
+
+class LoanedBooksByUserListView(generic.ListView):
+    model = BookInstance
+    template_name = "catalog/bookinstance_list_borrowed_user.html"
+
+    def get_queryset(self):
+        if self.request.user.is_authenticated:
+            return BookInstance.objects.filter(borrower=self.request.user, status__exact='o')
