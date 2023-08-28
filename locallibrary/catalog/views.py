@@ -55,6 +55,7 @@ def book_detail_view(request, primary_key):
 
 class AuthorListView(generic.ListView):
     model = Author
+    paginate_by = 10
 
 
 def author_detail_view(request, primary_key):
